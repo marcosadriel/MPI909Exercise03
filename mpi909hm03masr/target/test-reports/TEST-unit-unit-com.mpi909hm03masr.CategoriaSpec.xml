@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="sargittarius" name="com.mpi909hm03masr.CategoriaSpec" tests="1" time="1.826" timestamp="2015-07-30T02:30:26">
+  <properties />
+  <testcase classname="com.mpi909hm03masr.CategoriaSpec" name="test something" time="1.761" />
+  <system-out><![CDATA[--Output from test something--
+]]></system-out>
+  <system-err><![CDATA[--Output from test something--
+]]></system-err>
+</testsuite>

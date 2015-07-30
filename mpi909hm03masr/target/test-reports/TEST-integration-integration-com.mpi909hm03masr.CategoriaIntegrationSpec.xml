@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="sargittarius" name="com.mpi909hm03masr.CategoriaIntegrationSpec" tests="2" time="0.347" timestamp="2015-07-30T02:30:36">
+  <properties />
+  <testcase classname="com.mpi909hm03masr.CategoriaIntegrationSpec" name="Salvar e obter categoria do banco" time="0.338" />
+  <testcase classname="com.mpi909hm03masr.CategoriaIntegrationSpec" name="Salvar e atualizar no banco" time="0.008" />
+  <system-out><![CDATA[--Output from Salvar e obter categoria do banco--
+--Output from Salvar e atualizar no banco--
+]]></system-out>
+  <system-err><![CDATA[--Output from Salvar e obter categoria do banco--
+--Output from Salvar e atualizar no banco--
+]]></system-err>
+</testsuite>

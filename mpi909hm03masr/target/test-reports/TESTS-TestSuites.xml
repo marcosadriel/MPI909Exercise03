@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="sargittarius" id="0" name="CategoriaIntegrationSpec" package="com.mpi909hm03masr" tests="2" time="0.347" timestamp="2015-07-30T02:30:36">
+      <properties />
+
+      <testcase classname="com.mpi909hm03masr.CategoriaIntegrationSpec" name="Salvar e obter categoria do banco" time="0.338" />
+
+      <testcase classname="com.mpi909hm03masr.CategoriaIntegrationSpec" name="Salvar e atualizar no banco" time="0.008" />
+
+      <system-out><![CDATA[--Output from Salvar e obter categoria do banco--
+--Output from Salvar e atualizar no banco--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Salvar e obter categoria do banco--
+--Output from Salvar e atualizar no banco--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="sargittarius" id="1" name="CategoriaSpec" package="com.mpi909hm03masr" tests="1" time="1.826" timestamp="2015-07-30T02:30:26">
+      <properties />
+
+      <testcase classname="com.mpi909hm03masr.CategoriaSpec" name="test something" time="1.761" />
+
+      <system-out><![CDATA[--Output from test something--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test something--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

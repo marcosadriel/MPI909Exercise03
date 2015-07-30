@@ -1,0 +1,13 @@
+Testsuite: com.mpi909hm03masr.CategoriaIntegrationSpec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0,347 sec
+------------- Standard Output ---------------
+--Output from Salvar e obter categoria do banco--
+--Output from Salvar e atualizar no banco--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Salvar e obter categoria do banco--
+--Output from Salvar e atualizar no banco--
+------------- ---------------- ---------------
+
+Testcase: Salvar e obter categoria do banco took 0,338 sec
+Testcase: Salvar e atualizar no banco took 0,008 sec
