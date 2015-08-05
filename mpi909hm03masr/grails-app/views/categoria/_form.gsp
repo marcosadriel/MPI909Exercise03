@@ -11,15 +11,6 @@
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: categoriaInstance, field: 'catId', 'error')} required">
-	<label for="catId">
-		<g:message code="categoria.catId.label" default="Cat Id" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:textField name="catId" required="" value="${categoriaInstance?.catId}"/>
-
-</div>
-
 <div class="fieldcontain ${hasErrors(bean: categoriaInstance, field: 'tarefas', 'error')} ">
 	<label for="tarefas">
 		<g:message code="categoria.tarefas.label" default="Tarefas" />

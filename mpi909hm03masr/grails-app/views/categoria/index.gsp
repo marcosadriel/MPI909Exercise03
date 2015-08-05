@@ -26,8 +26,6 @@
 					
 						<g:sortableColumn property="catDescricao" title="${message(code: 'categoria.catDescricao.label', default: 'Cat Descricao')}" />
 					
-						<g:sortableColumn property="catId" title="${message(code: 'categoria.catId.label', default: 'Cat Id')}" />
-					
 						<th></th>
 					</tr>
 				</thead>
@@ -36,8 +34,6 @@
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" id="${categoriaInstance.id}">${fieldValue(bean: categoriaInstance, field: "catDescricao")}</g:link></td>
-					
-						<td>${fieldValue(bean: categoriaInstance, field: "catId")}</td>
 					
 						<td>
 							<g:form url="[resource:categoriaInstance, action:'delete']" method="DELETE">

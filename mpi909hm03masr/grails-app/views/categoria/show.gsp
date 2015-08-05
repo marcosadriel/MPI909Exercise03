@@ -32,15 +32,6 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${categoriaInstance?.catId}">
-				<li class="fieldcontain">
-					<span id="catId-label" class="property-label"><g:message code="categoria.catId.label" default="Cat Id" /></span>
-					
-						<span class="property-value" aria-labelledby="catId-label"><g:fieldValue bean="${categoriaInstance}" field="catId"/></span>
-					
-				</li>
-				</g:if>
-			
 				<g:if test="${categoriaInstance?.tarefas}">
 				<li class="fieldcontain">
 					<span id="tarefas-label" class="property-label"><g:message code="categoria.tarefas.label" default="Tarefas" /></span>
