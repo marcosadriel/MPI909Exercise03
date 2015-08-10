@@ -1,12 +1,16 @@
 package com.mpi909hm03masr
 
 class Tarefas {
-    String taskDescricao
-    Date taskFinal
-    Categoria categoria
+  String nome
+  //@BindingFormat('ddMMyyyy')
+  Date deadLine
+  boolean completo
+  Categoria categoria
 
-    static constraints = {
-      //taskID(unique:true, nullable:false)
-    }
-    //static hasMany = [categoria:Categoria]
+  static constraints = {
+  }
+
+  static mapping = {
+    completo defaultValue: false
+  }
 }
